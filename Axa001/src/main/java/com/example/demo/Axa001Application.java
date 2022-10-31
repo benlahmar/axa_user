@@ -45,13 +45,13 @@ public class Axa001Application implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		
-		User u=new User();
-		u.setLog("axa8");
-		u.setPass("pass");
-		Adresse adr=new Adresse();
-		adr.setVille("casa");
-		u.setAdresse(adr);
-		urepo.save(u);
+//		User u=new User();
+//		u.setLog("axa8");
+//		u.setPass("pass");
+//		Adresse adr=new Adresse();
+//		adr.setVille("casa");
+//		u.setAdresse(adr);
+//		urepo.save(u);
 //		
 //		Profile prf=new Profile();
 //		prf.setTel("4454585");
